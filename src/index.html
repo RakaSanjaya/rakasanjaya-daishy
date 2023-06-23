@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="black">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+   <!-- Link Tailwind CSS -->
+   <link rel="stylesheet" href="/dist/output.css" />
+   <!-- Link App CSS -->
+   <link rel="stylesheet" href="app.css" />
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/6e58fe20b7.js" crossorigin="anonymous"></script>
+   <title>Raka Sanjaya</title>
+</head>
+
+<body class="font-inter text-white overflow-hidden">
+   <header>
+      <div class="navbar bg-base-200 fixed top-0">
+         <div class="navbar-start">
+            <div class="dropdown">
+               <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                     stroke="currentColor">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+               </label>
+               <ul tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home </a></li>
+                  <li><a>About</a></li>
+                  <li><a>Skills</a></li>
+                  <li><a>Projects</a></li>
+                  <li><a>Contact</a></li>
+               </ul>
+            </div>
+            <a class="btn normal-case text-lg lg:text-xl rounded-lg">Raka Sanjaya</a>
+         </div>
+
+         <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+               <li><a>Home</a></li>
+               <li><a>About</a></li>
+               <li><a>Skills</a></li>
+               <li><a>Projects</a></li>
+               <li><a>Contact</a></li>
+            </ul>
+         </div>
+
+         <div class="navbar-end rounded-md">
+            <a class="btn align-middle normal-case bg-neutral-800 rounded-lg">Contact Me</a>
+         </div>
+      </div>
+   </header>
+
+   <section class="my-14 md:my-24 pt-10 lg:flex lg:justify-center lg:mx-20 align-middle items-center">
+      <div class="flex flex-col lg:flex-row lg:items-center">
+         <img src="img/raka2.png" alt="img-raka" class="w-2/3 md:w-4/12 mx-auto lg:mx-0" />
+         <div>
+            <h2 class="text-center font-medium text-white text-3xl md:text-4xl mb-2">
+               Raka Sanjaya
+            </h2>
+            <span class="text-center mx-auto flex justify-center mt-2 text-sm">Graphic Designer | Web Developer</span>
+            <div class="flex justify-center align-middle gap-3 my-5">
+               <a href="" class="bg-primary p-3 rounded-sm hover:bg-accent-focus"><i
+                     class="fa-brands fa-instagram fa-xl"></i></a>
+               <a href="" class="bg-primary p-3 rounded-sm  hover:bg-accent-focus"><i
+                     class="fa-brands fa-youtube fa-xl"></i></a>
+               <a href="" class="bg-primary p-3 rounded-sm hover:bg-accent-focus"><i
+                     class="fa-brands fa-square-facebook fa-xl "></i></a>
+               <a href="" class="bg-primary p-3 rounded-sm hover:bg-accent-focus"><i
+                     class="fa-brands fa-linkedin fa-xl"></i></a>
+            </div>
+         </div>
+      </div>
+      <div class="mx-auto p-5 hidden lg:w-1/2 lg:block">
+         <h2 class="text-2xl font-bold text-poolblue">About Me</h2>
+         <p class="text-sm text-justify">Nama saya <span class="font-semibold text-poolblue">Raka Sanjaya,</span> Saya
+            adalah Siswa yang bersekolah di Jurusan Multimedia. Hobi saya
+            Coding, Mendengarkan musik, Mendesain, Dan lainnya. Saya Bercita-cita menjadi seorang Graphic Designer, Dan
+            Front-end Developer.</p>
+      </div>
+   </section>
+
+   <section class="carousel w-full border-y-2 border-poolblue">
+      <div id="slide1" class="carousel-item relative w-full">
+         <img src="/src/img/3d/gelas kopi.png" class="w-full" />
+         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle btn-sm bg-primary">❮</a>
+            <a href="#slide2" class="btn btn-circle btn-sm bg-primary">❯</a>
+         </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+         <img src="/src/img/3d/tv.png" class="w-full" />
+         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle btn-sm bg-primary">❮</a>
+            <a href="#slide3" class="btn btn-circle btn-sm bg-primary">❯</a>
+         </div>
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+         <img src="/src/img/3d/isometrik.png" class="w-full" />
+         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle btn-sm bg-primary">❮</a>
+            <a href="#slide4" class="btn btn-circle btn-sm bg-primary">❯</a>
+         </div>
+      </div>
+      <div id="slide4" class="carousel-item relative w-full">
+         <img src="/src/img/3d/bendera.png" class="w-full" />
+         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle btn-sm bg-primary">❮</a>
+            <a href="#slide1" class="btn btn-circle btn-sm bg-primary">❯</a>
+         </div>
+      </div>
+   </section>
+
+   <section class="my-20 flex flex-col mx-2 md:flex-row md:justify-center md:items-center md:mx-10">
+      <img src="/src/illustration/img-programmer.png" alt="img-programmer" class="mx-auto w-2/3 md:w-3/12" />
+      <p class="mx-auto md:text-lg mt-5 md:mt-0">
+         <span class="text-poolblue">Hi, I'm </span><a href="https://id.wikipedia.org/wiki/Perancang_grafis"
+            target="_blank" class="text-white hover:text-poolblue ease-in-out duration-500"><abbr
+               title="Graphic designer (desainer grafis) merupakan sebuah pekerjaan menciptakan ilustrasi, tipografi, fotografi, atau grafis motion baik untuk penerbit maupun media cetak dan elektronik."
+               class="no-underline">Graphic Designer</abbr></a>
+         <span class="text-poolblue">and </span><a href="https://id.wikipedia.org/wiki/Pengembang_web" target="_blank"
+            class="text-white hover:text-poolblue ease-in-out duration-500"><abbr
+               title="Pengembang web adalah seorang programmer yang mengkhususkan diri dalam, atau secara khusus terlibat dalam, pengembangan aplikasi World Wide Web menggunakan client–server model. Aplikasi biasanya menggunakan HTML, CSS dan JavaScript di klien, PHP, ASP.NET (C #), Python, Go atau Java di server, dan http untuk komunikasi antara klien dan server. Sistem manajemen konten web sering digunakan untuk mengembangkan dan memelihara aplikasi web."
+               class="no-underline">Web Developer!</abbr></a>
+      </p>
+   </section>
+
+
+   <section class="my-20 p-5 w-11/12 mx-auto bg-primary  rounded-xl md:w-3/4 lg:hidden">
+      <h2 class="text-center text-2xl font-bold">ABOUT ME</h2>
+      <p class="text-sm text-center">Nama saya <span class="font-semibold text-poolblue">Raka Sanjaya,</span> Saya
+         adalah Siswa yang bersekolah di Jurusan Multimedia. Hobi saya
+         Coding, Mendengarkan musik, Mendesain, Dan lainnya. Saya Bercita-cita menjadi seorang Graphic Designer, Dan
+         Front-end Developer</p>
+   </section>
+
+</body>
+
+</html>
