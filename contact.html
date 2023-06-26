@@ -64,28 +64,44 @@
    <!-- Contact Form -->
    <section class="my-28 flex flex-col lg:flex-row items-center">
 
-      <div class="">
+      <div class="mb-16">
          <img src="src/illustration/mail.png" alt="img-mail" class="w-9/12 lg:w-3/12 mx-auto">
       </div>
 
-      <div class="w-full mx-auto my-24">
-         <div class="form-control w-full max-w-xs">
+      <div class="form lg:bg-base-200 lg:rounded-lg">
 
-            <div class="firstname">
-               <label class="label" for="firstname" class="label">Firstname</label>
-               <input type="text" id="firstname" placeholder="Your Name" class="input input-bordered w-full max-w-xs" />
+         <div class="name flex gap-3 w-11/12 mx-auto md:w-11/12 my-5">
+            <div class="firstname flex flex-col w-1/2">
+               <label class="text-sm mb-2" for="firstname">Firstname:</label>
+               <input type="text" id="firstname" placeholder="Firstname"
+                  class="input input-bordered w-full text-sm pl-3 rounded-md focus:outline-none py-0 placeholder:text-neutral-content placeholder:text-opacity-40 bg-base-200" />
             </div>
-
-            <div class="lastname">
-               <label class="label">Lastname</label>
-               <input type="text" placeholder="Your Name" class="input input-bordered w-full max-w-xs" />
-
+            <div class="lastname flex flex-col w-1/2">
+               <label class="text-sm mb-2" for="lastname">Lastname:</label>
+               <input type="text" id="lastname" placeholder="Lastname"
+                  class="input input-bordered w-full text-sm pl-3 rounded-md focus:outline-none py-0 placeholder:text-neutral-content placeholder:text-opacity-40 bg-base-200" />
             </div>
-
-
-            </label>
          </div>
-      </div>
+
+         <div class="email flex flex-col w-11/12 mx-auto my-5">
+            <label class="text-sm mb-2" for="lastname">Email:</label>
+            <input type="email" id="lastname" placeholder="Johndoe@gmail.com"
+               class="input input-bordered w-full text-sm pl-3 rounded-md focus:outline-none py-0 placeholder:text-neutral-content placeholder:text-opacity-40 bg-base-200" />
+         </div>
+
+         <div class="email flex flex-col w-11/12 mx-auto my-5">
+            <label class="text-sm mb-2" for="lastname">Phone Number:</label>
+            <input type="email" id="lastname" placeholder="Johndoe@gmail.com"
+               class="input input-bordered w-full text-sm pl-3 rounded-md focus:outline-none py-0 placeholder:text-neutral-content placeholder:text-opacity-40 bg-base-200" />
+         </div>
+
+         <div class="email flex flex-col w-11/12 mx-auto my-5">
+            <label class="text-sm mb-2" for="lastname">Phone Number:</label>
+            <textarea rows="7"
+               class="textarea w-full text-sm rounded-md focus:outline-none placeholder:text-neutral-content placeholder:text-opacity-40 bg-base-200 p-3"
+               placeholder="Send me a message"></textarea>
+
+         </div>
 
    </section>
 </body>
